@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsc && vite build && cp ./static.json ./dist/static.json",
+    "preview": "vite preview",
+    "deploy:gh": "deploy-gh.sh",
+    "deploy:heroku": "deploy-heroku.sh"
   },
   "dependencies": {
     "react": "^17.0.2",
