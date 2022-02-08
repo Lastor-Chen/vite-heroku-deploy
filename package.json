@@ -1,5 +1,5 @@
 {
-  "name": "funkar2-frontend-vite",
+  "name": "vite-heroku-deploy",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
